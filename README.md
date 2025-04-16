@@ -25,10 +25,6 @@ This is a healthcare management system built using Java and core Object-Oriented
   - View available slots for all doctors on that date
   - Book an available time slot (system prevents double-booking)
 
-### Slot Time Calculation
-- First slot starts at the doctor's availability start time (5 PM).
-- Subsequent appointments are spaced at **30-minute intervals** from the previous slot’s end.
-
 ### Doctor and Patient Info Management
 - The system maintains a list of all registered doctors.
 - Doctors can view their list of scheduled patients for a selected date.
